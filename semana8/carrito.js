@@ -12,4 +12,5 @@ function insertaDatos(form) {
 		document.getElementById('carritocompra').value += "Cantidad:"+articulos+"\tProducto:"+extraccion+"\tTotal: "+ " $"+totalCarro + "\n";
 		document.getElementById('totalCompras').value=total;
 
-	}
+    }
+     

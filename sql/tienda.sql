@@ -15,5 +15,8 @@ CREATE TABLE tickets(
     total_producto varchar(100) NOT NULL
 );
 
-INSERT INTO tickets(fecha, hora_venta, cantidad_producto, producto, total_producto) values (date (), time (), "1", "Enchufe Universal", "$310");
+INSERT INTO tickets(fecha, hora_venta, cantidad_producto, producto, total_producto) values (date (), time (), "1", "Audifonos", "$50");
+INSERT INTO tickets(fecha, hora_venta, cantidad_producto, producto, total_producto) values (date (), time (), "1", "Cable USB", "$50");
+INSERT INTO tickets(fecha, hora_venta, cantidad_producto, producto, total_producto) values (date (), time (), "1", "foco RBG", "$230");
+INSERT INTO tickets(fecha, hora_venta, cantidad_producto, producto, total_producto) values (date (), time (), "1", "Lampara USB", "$70");
 INSERT INTO tickets(fecha, hora_venta, cantidad_producto, producto, total_producto) values (date (), time (), "1", "Monitor", "$3,000");

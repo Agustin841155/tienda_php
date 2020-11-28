@@ -42,8 +42,17 @@
 		<input type="number" name="totalapagar"id="totalCompras" readonly=""></label></p>
 		<input type="button" id="botonNuevo" value="Nueva Compra" onclick="location.reload()">
     
-    <input type="submit" id="cobrar" name="cobrar" value="cobrar" </p>
+    <form action="insert.php" method="GET">
+    <input type="submit" id="cobrar" href="insert.php" name="cobrar" value="cobrar" </p>
 		</form>
+        <div class="container-fluid">
+        <h2>Base de datos de productos </h2>
+        <a href="../index.php">haz clik aqui para ingresar a la base de datos</a>
+    </div>
+    <div class="container-fluid">
+        <h2>Historial de ventas</h2>
+        <a href="historial_ventas.php">haz click aqui para ingresar al historial de ventas</a>
+    </div>
 </body>
 
 </html>

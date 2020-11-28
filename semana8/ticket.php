@@ -72,18 +72,8 @@ text-align: center;
         $productos= [
             [
                 "cantidad" => 1,
-                "descripcion" => "Enchufe Universal",
-                "precio" => 310,
-            ],
-            [
-                "cantidad" => 1,
-                "descripcion" => "Monitor",
-                "precio" => 3000,
-            ],
-            [
-                "cantidad" => 1,
-                "descripcion" => "Foco RGB",
-                "precio" => 230,
+                "descripcion" => "Audifonos",
+                "precio" => 50,
             ],
             [
                 "cantidad" => 1,
@@ -92,8 +82,18 @@ text-align: center;
             ],
             [
                 "cantidad" => 1,
-                "descripcion" => "Audifonos",
-                "precio" => 50,
+                "descripcion" => "Foco RGB",
+                "precio" => 230,
+            ],
+            [
+                "cantidad" => 1,
+                "descripcion" => "Lampara USB",
+                "precio" => 70,
+            ],
+            [
+                "cantidad" => 1,
+                "descripcion" => "monitor",
+                "precio" => 3000,
             ],
         ];
 
